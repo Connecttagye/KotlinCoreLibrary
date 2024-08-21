@@ -13,11 +13,15 @@ dependencyResolutionManagement {
         mavenCentral()
         maven {
             url = uri("https://maven.google.com")
+
         }
 
     }
 }
 
-include(":app")
+include(
+    ":core:utilities",
+    ":core:ui",
+)
 
 

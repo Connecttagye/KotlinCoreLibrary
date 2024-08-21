@@ -1,5 +1,3 @@
-import io.getstream.chat.android.Configuration
-import io.getstream.chat.android.Dependencies
 
 plugins {
     id("com.android.library")
